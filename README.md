@@ -4,8 +4,8 @@
 
 ## Projeto: "cluster-coreos-basic-vagrant"
 
-<h1 align="center" >
-    Subir um cluster CoreOS de 3 instâncias <br/>usando <br/ >"Packer e Vagrant"
+<h1 align="center" style="color:red;">
+    Subir um cluster CoreOS de 3 instâncias <br/>usando <br/ > <blink>"Packer e Vagrant"<blink/>
 </h1>
 
 <h1 align="center" >
