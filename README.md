@@ -53,6 +53,9 @@
 
 ## Estrutura do Projeto:
 
+<h1 align="center" >
+    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/diagrama-1.png" alt="print-vagrant"/>
+</h1>
 
 ## $ Executando o projeto ([coreos-packer](https://github.com/alisonbuss/coreos-packer/)) usando Packer.
 
