@@ -1,10 +1,12 @@
 
-#### Translation for: **[English](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/README_LANG_EN.md)**. 
+#### Translation for: **[English](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**. 
 
 
 ## Projeto: "cluster-coreos-basic-vagrant"
 
-<h1 align="center" >"Subir um cluster CoreOS de 3 instâncias, usando Packer e Vagrant"</h1>
+<h1 align="center" >
+    Subir um cluster CoreOS de 3 instâncias <br/>usando <br/ >"Packer e Vagrant"
+</h1>
 
 <h1 align="center" >
     <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant.png" alt="print-vagrant"/>
@@ -13,16 +15,16 @@
 
 ## Inspirado nos projetos:
 
-* **[coreos-vagrant](https://github.com/coreos/coreos-vagrant/)** - Do repositório oficial do CoreOS.
-* **[coreos-kids-vagrant](https://github.com/alisonbuss/coreos-kids-vagrant/)** - Exemplo de um Vagrantfile subindo varias VM CoreOS sobre uma configuração simples
-* **[coreos-packer](https://github.com/alisonbuss/coreos-packer/)** - Projeto de criação de imagens CoreOS para múltiplas plataformas (Amazon EC2, Google GCE, DigitalOcean, VirtualBox).
+* **[[coreos-vagrant](https://github.com/coreos/coreos-vagrant/)]** - Do repositório oficial do CoreOS.
+* **[[coreos-kids-vagrant](https://github.com/alisonbuss/coreos-kids-vagrant/)]** - Exemplo de um Vagrantfile subindo varias VM CoreOS sobre uma configuração simples
+* **[[coreos-packer](https://github.com/alisonbuss/coreos-packer/)]** - Projeto de criação de imagens CoreOS para múltiplas plataformas (Amazon EC2, Google GCE, DigitalOcean, VirtualBox).
 
 
 ## Dependência de ferramentas:
 
-* **[VirtualBox](https://www.virtualbox.org/)** 4.3.10 ou superior...
-* **[Vagrant](https://www.vagrantup.com/)** 1.6.3 ou superior...
-* **[Packer](https://www.packer.io/)** 1.1.3 ou superior...
+* **[[VirtualBox](https://www.virtualbox.org/)]** 4.3.10 ou superior...
+* **[[Vagrant](https://www.vagrantup.com/)]** 1.6.3 ou superior...
+* **[[Packer](https://www.packer.io/)]** 1.1.3 ou superior...
 
 > **Nota:**
 > *É necessário ter instalado as dependências citadas acima, para que o projeto funcione.*
@@ -30,7 +32,7 @@
 
 ## Dependência de projetos:
 
-* **[coreos-packer](https://github.com/alisonbuss/coreos-packer/)** Esse projeto cria IMAGENS CoreOS utilizando **"[Ignition](https://coreos.com/ignition/docs/latest/)"** para as plataformas: (Amazon EC2, Google GCE, DigitalOcean, VirtualBox, ...) e de quebra gerar um "**[Vagrant Box](https://www.vagrantup.com/docs/boxes/base.html)**".
+* **[[coreos-packer](https://github.com/alisonbuss/coreos-packer/)]** - Esse projeto cria IMAGENS CoreOS utilizando **"[Ignition](https://coreos.com/ignition/docs/latest/)"** para as plataformas: (Amazon EC2, Google GCE, DigitalOcean, VirtualBox, ...) e de quebra gerar um "**[Vagrant Box](https://www.vagrantup.com/docs/boxes/base.html)**".
 
 > **Nota:**
 > *Para subir um cluster CoreOS de 3 nós pelo Vagrant, vai ser utilizado um "**[Vagrant Box](https://www.vagrantup.com/docs/boxes/base.html)**" gerado pelo projeto **[coreos-packer](https://github.com/alisonbuss/coreos-packer/)** .*
