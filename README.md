@@ -4,11 +4,11 @@
 
 ## Projeto: "cluster-coreos-basic-vagrant"
 
-<h1 align="center" style="color:red;">
-    Subir um cluster CoreOS de 3 instâncias <br/>usando <br/ > <blink>"Packer e Vagrant"<blink/>
+<h1 align="center">
+    Subir um cluster CoreOS de 3 instâncias <br/>usando <br/ >"Packer e Vagrant"
 </h1>
 
-<h1 align="center" >
+<h1 align="center">
     <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant.png" alt="print-vagrant"/>
 </h1>
 
@@ -53,7 +53,7 @@
 
 ## Estrutura do Projeto:
 
-<h1 align="center" >
+<h1 align="center">
     <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/diagrama-1.png" alt="print-vagrant"/>
 </h1>
 
