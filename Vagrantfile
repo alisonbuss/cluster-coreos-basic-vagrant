@@ -62,6 +62,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
             subconfig.vm.provision "shell", path: "provision/shell-script/config-init.sh", args:["#{_hostname}"]
             subconfig.vm.provision "shell", path: "provision/shell-script/config-network.sh", args:["#{_private_ip}"]
             subconfig.vm.provision "shell", path: "provision/shell-script/config-storage-unit.sh"
+            subconfig.vm.provision "shell", path: "provision/shell-script/config-rkt.sh"
             subconfig.vm.provision "shell", path: "provision/shell-script/config-docker.sh"
             subconfig.vm.provision "shell", path: "provision/shell-script/config-etcd.sh", args:["#{_private_ip}","#{$DISCOVERY}","#{_hostname}-etcd"]
             subconfig.vm.provision "shell", path: "provision/shell-script/config-flannel.sh"

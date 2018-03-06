@@ -1,6 +1,10 @@
 
 
-
+https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-disk-usage-and-cpu-load
+http://www.systeen.com/2016/05/07/bash-script-monitor-cpu-memory-disk-usage-linux/
+https://stackoverflow.com/questions/22467909/bash-script-that-computes-used-diskspace-percentage-for-given-partition
+https://gist.github.com/skyfish81/980173
+http://leetschau.github.io/blog/2014/06/30/114910/
 
 # FOR ETCD 2
 
