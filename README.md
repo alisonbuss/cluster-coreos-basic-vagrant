@@ -1,7 +1,7 @@
 
-#### :globe_with_meridians: Translation for: **[English :us:](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**.
+#### Translation for: **[English :us:](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**.
 
-#### :construction: Status do Projeto: **Em desenvolvimento**.
+#### Status do Projeto: **Em desenvolvimento**.
 
 <h1 align="center">
     Subir um cluster CoreOS de 3 hosts usando <br/ >"Packer e Vagrant"
