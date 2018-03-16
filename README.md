@@ -1,5 +1,5 @@
 
-#### Translation for: **[English :us:](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**.
+#### Translation for: **[English](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**.
 
 #### Status do Projeto: **Em desenvolvimento**.
 
