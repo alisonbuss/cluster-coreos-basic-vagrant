@@ -36,7 +36,7 @@
 > **Nota:**
 > *Para subir um cluster pelo Vagrant, vai ser utilizado um "**[Vagrant Box](https://www.vagrantup.com/docs/boxes/base.html)**" gerado pelo projeto citado acima "**[coreos-packer](https://github.com/alisonbuss/coreos-packer/)**".*
 
-## Documentação de apoio:
+### Documentação de apoio:
 
 * **[Documentação oficial do CoreOS](https://coreos.com/os/docs/latest/cluster-architectures.html)**.
 * **[Documentação oficial do Etcd](https://coreos.com/etcd/docs/latest/op-guide/clustering.html)**
@@ -44,7 +44,7 @@
 * **[Documentação oficial do Vagrant](https://www.vagrantup.com/docs/index.html)**.
 * **[Documentação da criação de imagem "CoreOS Packer"](https://github.com/alisonbuss/coreos-packer/blob/master/README.md)**.
 
-## Objetivo:
+### Objetivo:
 
 Fornecer um projeto de "Infrastructure as Code (IaC)" usando **Vagrantfile** e **shell scripts** para procvisionar um **cluster CoreOS** básico, baseado em uma imagem "**[coreos-packer](https://github.com/alisonbuss/coreos-packer/)**".
 
@@ -56,9 +56,9 @@ O ambiente será semelhante a proposta da documentação oficial do CoreOS citad
   - Demo com uma série de exemplos, mostra os procedimentos básicos para trabalhar com um cluster ETDC -> https://coreos.com/etcd/docs/latest/demo.html
   - Guia de Clusterização ETCD -> https://coreos.com/etcd/docs/latest/op-guide/clustering.html
 
-## Ambiente Proposto:
+### Ambiente Proposto:
 
-### Imagem: 
+#### Imagem: 
 
   - [CoreOS Stable 1632.3.0](https://github.com/alisonbuss/coreos-packer/)
     - kernel: v4.14.19
@@ -72,7 +72,7 @@ O ambiente será semelhante a proposta da documentação oficial do CoreOS citad
     - flannel v0.7.0
     - active-python: v2.7.13
 
-### Host: 
+#### Host: 
 
 Para cada **host** será fornecido alguns dados específicos:
 
@@ -115,13 +115,13 @@ O provisionamento de cada **host** será através dos arquivos de **Shell Script
 > - *[Guia de clusterização ETCD, Token de Descoberta](https://coreos.com/etcd/docs/latest/op-guide/clustering.html#discovery)*
 
 
-### Diagrama do Ambiente:
+#### Diagrama:
 
 <h1 align="center">
     <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/diagram-environment.png" alt="diagrama"/>
 </h1>
 
-## Estrutura do Projeto:
+### Estrutura do Projeto:
 
 Descrição dos arquivos e diretorios do projeto:
 
@@ -230,7 +230,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 end
 ```
 
-## $ Executando o projeto.
+### Executando o projeto.
 
 > **Nota:**
 > - *A execução desse projeto foi feita através de um **Desktop Ubuntu 17.10 (Artful Aardvark)**.*
@@ -295,10 +295,9 @@ PRONTO!!! se tudo funcionou como o esperado agora podemos executar o projeto [co
 > - *Caso ocorra **ERROS** nas validações acima, **Boa Sorte!!!  "O Google é o seu pastor e nada te faltará..."***
 
 
+### $ Executando o projeto **coreos-packer** usando a ferramenta Packer.
 
-## Executando o projeto ([coreos-packer](https://github.com/alisonbuss/coreos-packer/)) usando Packer.
-
-1ª) Vamos criar uma pasta que vai ser o nosso ambiente e fazer o download do projeto **[coreos-packer](https://github.com/alisonbuss/coreos-packer/)** via terminal:
+1ª) Vamos criar uma pasta que vai ser o nosso ambiente e fazer o download do projeto **[coreos-packer](https://github.com/alisonbuss/coreos-packer/archive/master.zip)** via terminal:
 
 ```bash
 $ mkdir -p "my-project-IaC"
@@ -374,13 +373,11 @@ coreos-packer-master  coreos-packer.zip
 > **Nota:**
 > - *Caso ocorra **ERROS** ao criar a imagem, **Boa Sorte!!!  "O Google é o seu pastor e nada te faltará..."***
 
+### $ Executando o projeto **cluster-coreos-basic-vagrant** usando a ferramenta Vagrant.
 
+**Pronto!!! agora é a parte onde executamos e subimos o cluster de 3 hosts:**
 
-## Executando o projeto ([cluster-coreos-basic-vagrant](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/)) usando Vagrant.
-
-### Pronto!!! agora é a parte onde executamos e subimos o cluster de 3 hosts:
-
-1ª) Vamos fazer o download do projeto **[cluster-coreos-basic-vagrant](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/)** via terminal:
+1ª) Vamos fazer o download do projeto **[cluster-coreos-basic-vagrant](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/archive/master.zip)** via terminal:
 
 ```bash
 $ wget -O "cluster-coreos-basic-vagrant.zip" "https://github.com/alisonbuss/cluster-coreos-basic-vagrant/archive/master.zip"
@@ -503,11 +500,10 @@ $ ETCDCTL_API=3 etcdctl --endpoints=http://192.168.33.101:2379,http://192.168.33
 
 ```
 
+### Sucesso!!! \O/
 
-## Sucesso!!! \O/
 
-
-## Referências:
+### Referências:
 
 * Canal YouTube Bóson Treinamentos, Fábio dos Reis. ***Programação no Linux*** 
   Acessado: *29 de Julho de 2017.*
@@ -520,7 +516,7 @@ $ ETCDCTL_API=3 etcdctl --endpoints=http://192.168.33.101:2379,http://192.168.33
   Disponível: *[http://www.mhavila.com.br/topicos/unix/shscript.html](http://www.mhavila.com.br/topicos/unix/shscript.html)*.
 
 
-## Licença
+### Licença
 
 - [MIT License](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/LICENSE)
 
