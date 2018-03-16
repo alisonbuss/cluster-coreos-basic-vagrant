@@ -295,7 +295,7 @@ PRONTO!!! se tudo funcionou como o esperado agora podemos executar o projeto [co
 > - *Caso ocorra **ERROS** nas validações acima, **Boa Sorte!!!  "O Google é o seu pastor e nada te faltará..."***
 
 
-### $ Executando o projeto "[coreos-packer](https://github.com/alisonbuss/coreos-packer/)" usando a ferramenta Packer.
+### Executando o projeto "[coreos-packer](https://github.com/alisonbuss/coreos-packer/)" usando a ferramenta Packer.
 
 1ª) Vamos criar uma pasta que vai ser o nosso ambiente e fazer o download do projeto **[coreos-packer](https://github.com/alisonbuss/coreos-packer/archive/master.zip)** via terminal:
 
@@ -373,7 +373,7 @@ coreos-packer-master  coreos-packer.zip
 > **Nota:**
 > - *Caso ocorra **ERROS** ao criar a imagem, **Boa Sorte!!!  "O Google é o seu pastor e nada te faltará..."***
 
-### $ Executando o projeto "[cluster-coreos-basic-vagrant](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/)" usando a ferramenta Vagrant.
+### Executando o projeto "[cluster-coreos-basic-vagrant](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/)" usando a ferramenta Vagrant.
 
 **Pronto!!!** agora é a parte onde executamos e subimos o cluster de 3 hosts:
 
@@ -518,6 +518,4 @@ $ ETCDCTL_API=3 etcdctl --endpoints=http://192.168.33.101:2379,http://192.168.33
 
 ### Licença
 
-- [MIT License](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/LICENSE)
-
-<img width="200" alt="LicenseMIT" src="https://raw.githubusercontent.com/alisonbuss/my-licenses/master/files/icon-license-mit-500px.png"/>
+[<img width="200" src="https://raw.githubusercontent.com/alisonbuss/my-licenses/master/files/icon-license-mit-500px.png">](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/LICENSE)
