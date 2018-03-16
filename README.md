@@ -518,4 +518,4 @@ $ ETCDCTL_API=3 etcdctl --endpoints=http://192.168.33.101:2379,http://192.168.33
 
 ### Licença
 
-[<img width="200" src="https://raw.githubusercontent.com/alisonbuss/my-licenses/master/files/icon-license-mit-500px.png">](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/LICENSE)
+<img width="190" src="https://raw.githubusercontent.com/alisonbuss/my-licenses/master/files/logo-open-source-550x200px.png"> [<img width="166" src="https://raw.githubusercontent.com/alisonbuss/my-licenses/master/files/icon-license-mit-500px.png">](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/LICENSE)
