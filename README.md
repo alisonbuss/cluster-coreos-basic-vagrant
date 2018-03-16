@@ -52,9 +52,9 @@ Com um ambiente de **3 hosts virtuais**, em cada host provisionado, será execut
 
 O ambiente será semelhante a proposta da documentação oficial do CoreOS citada abaixo:
 
-  - Executando CoreOS Container Linux em Vagrant -> https://coreos.com/os/docs/latest/booting-on-vagrant.html
-  - Demo com uma série de exemplos, mostra os procedimentos básicos para trabalhar com um cluster ETDC -> https://coreos.com/etcd/docs/latest/demo.html
-  - Guia de Clusterização ETCD -> https://coreos.com/etcd/docs/latest/op-guide/clustering.html
+  - Executando CoreOS Container Linux em Vagrant :point_right: https://coreos.com/os/docs/latest/booting-on-vagrant.html
+  - Demo com uma série de exemplos, mostra os procedimentos básicos para trabalhar com um cluster ETDC :point_right: https://coreos.com/etcd/docs/latest/demo.html
+  - Guia de Clusterização ETCD :point_right: https://coreos.com/etcd/docs/latest/op-guide/clustering.html
 
 ### Ambiente Proposto:
 
@@ -518,5 +518,5 @@ $ ETCDCTL_API=3 etcdctl --endpoints=http://192.168.33.101:2379,http://192.168.33
 
 ### Licença
 
-[<img width="190" src="https://raw.githubusercontent.com/alisonbuss/my-licenses/master/files/logo-open-source-550x200px.png">](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/LICENSE)
+[<img width="190" src="https://raw.githubusercontent.com/alisonbuss/my-licenses/master/files/logo-open-source-550x200px.png">](https://opensource.org/licenses)
 [<img width="166" src="https://raw.githubusercontent.com/alisonbuss/my-licenses/master/files/icon-license-mit-500px.png">](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/LICENSE)
