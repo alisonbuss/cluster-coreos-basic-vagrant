@@ -23,7 +23,7 @@
 * **[[Vagrant](https://www.vagrantup.com/)]** 1.6.3 ou superior...
 * **[[Packer](https://www.packer.io/)]** 1.1.3 ou superior...
 * **[[Container Linux Config Transpiler](https://github.com/coreos/container-linux-config-transpiler)]** 0.5.0 ou superior...
-* **[[GNU Make](https://www.gnu.org/software/make/)]**
+* **[[GNU Make](https://www.gnu.org/software/make/)]** 4.1 ou superior...
 
 > **Nota:**
 > - *É necessário ter instalado as dependências citadas acima, para que o projeto funcione.*
@@ -46,7 +46,7 @@
 
 ### Objetivo:
 
-Fornecer um projeto de "Infrastructure as Code (IaC)" usando **Vagrantfile** e **shell scripts** para procvisionar um **cluster CoreOS** básico, baseado em uma imagem "**[coreos-packer](https://github.com/alisonbuss/coreos-packer/)**".
+Fornecer um projeto de "Infrastructure as Code (IaC)" usando **Vagrantfile** e **shell scripts** para provisionar um **cluster CoreOS** básico, baseado em uma imagem "**[coreos-packer](https://github.com/alisonbuss/coreos-packer/)**".
 
 Com um ambiente de **3 hosts virtuais**, em cada host provisionado, será executado os serviços: **(Docker, Rkt, Etcd-2, Etcd-3, Flannel)** e garantir que o **(Etcd-Server)** de cada host se comuniquem entre si, formando assim um cluster funcional e simples.
 
@@ -276,7 +276,7 @@ Antes de sair executado o projeto pelo terminal, precisamos validar algumas depe
       ```bash
       ct v0.5.0
       ```
-  * **[[GNU Make](https://www.gnu.org/software/make/)]**
+  * **[[GNU Make](https://www.gnu.org/software/make/)]** 4.1 ou superior...
     * Testar pelo terminal:
       ```bash
       $ make -v
