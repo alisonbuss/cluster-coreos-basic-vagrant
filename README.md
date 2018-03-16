@@ -3,21 +3,21 @@
 
 #### Status do Projeto: **Em desenvolvimento**.
 
-<h2 align="center">
-    Subir um cluster CoreOS de 3 hosts usando <br/ >"Packer e Vagrant"
-</h2>
-
 <h1 align="center">
-    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant.png" alt="print-vagrant"/>
+    Subir um cluster CoreOS de 3 hosts usando <br/ >"Packer e Vagrant"
 </h1>
 
-## Inspirado nos projetos:
+<h2 align="center">
+    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant.png" alt="print-vagrant"/>
+</h2>
+
+### Inspirado nos projetos:
 
 * **[[coreos-vagrant](https://github.com/coreos/coreos-vagrant/)]** - Do repositório oficial do CoreOS.
 * **[[coreos-kids-vagrant](https://github.com/alisonbuss/coreos-kids-vagrant/)]** - Exemplo de um Vagrantfile subindo varias VM CoreOS sobre uma configuração simples
 * **[[coreos-packer](https://github.com/alisonbuss/coreos-packer/)]** - Projeto de criação de imagens CoreOS para múltiplas plataformas (Amazon EC2, Google GCE, DigitalOcean, VirtualBox).
 
-## Dependência de ferramentas:
+### Dependência de ferramentas:
 
 * **[[VirtualBox](https://www.virtualbox.org/)]** 4.3.10 ou superior...
 * **[[Vagrant](https://www.vagrantup.com/)]** 1.6.3 ou superior...
@@ -29,7 +29,7 @@
 > - *É necessário ter instalado as dependências citadas acima, para que o projeto funcione.*
 > - *A execução desse projeto foi feita através de um **Desktop Ubuntu 17.10 (Artful Aardvark)**.*
 
-## Dependência de projetos:
+### Dependência de projetos:
 
 * **[[coreos-packer](https://github.com/alisonbuss/coreos-packer/)]** Esse projeto é responsável por criar imagens para múltiplas plataformas e na subsequencia gera um "**[Vagrant Box](https://www.vagrantup.com/docs/boxes/base.html)**".
 
