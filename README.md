@@ -36,16 +36,24 @@
 > **Nota:**
 > *Para subir um cluster pelo Vagrant, vai ser utilizado um "**[Vagrant Box](https://www.vagrantup.com/docs/boxes/base.html)**" gerado pelo projeto citado acima "**[coreos-packer](https://github.com/alisonbuss/coreos-packer/)**".*
 
+## Documentação de apoio:
+
+* **[Documentação oficial do CoreOS](https://coreos.com/os/docs/latest/cluster-architectures.html)**.
+* **[Documentação oficial do Etcd](https://coreos.com/etcd/docs/latest/op-guide/clustering.html)**
+* **[Documentação oficial do Packer](https://www.packer.io/docs/index.html)**.
+* **[Documentação oficial do Vagrant](https://www.vagrantup.com/docs/index.html)**.
+* **[Documentação da criação de imagem "CoreOS Packer"](https://github.com/alisonbuss/coreos-packer/blob/master/README.md)**.
+
 ## Objetivo:
 
-Fornecer um projeto de "Infrastructure as Code (IaC)" usando **Vagrantfile** e **shell scripts** para procvisionar um **cluster CoreOS**, baseado em uma imagem "**[coreos-packer](https://github.com/alisonbuss/coreos-packer/)**".
+Fornecer um projeto de "Infrastructure as Code (IaC)" usando **Vagrantfile** e **shell scripts** para procvisionar um **cluster CoreOS** básico, baseado em uma imagem "**[coreos-packer](https://github.com/alisonbuss/coreos-packer/)**".
 
-Com um ambiente de **3 hosts virtuais**, em cada host provisionado, será executado os serviços: **(Docker, Rkt, Etcd-2, Etcd-3, Flannel)** e garantir que o **(Etcd-Server)** de cada host se comuniquem entre si, formando assim um cluster funcional, básico e simples.
+Com um ambiente de **3 hosts virtuais**, em cada host provisionado, será executado os serviços: **(Docker, Rkt, Etcd-2, Etcd-3, Flannel)** e garantir que o **(Etcd-Server)** de cada host se comuniquem entre si, formando assim um cluster funcional e simples.
 
 O ambiente será semelhante a proposta da documentação oficial do CoreOS citada abaixo:
 
   - Executando CoreOS Container Linux em Vagrant -> https://coreos.com/os/docs/latest/booting-on-vagrant.html
-  - Demo com uma série de exemplos mostra os procedimentos básicos para trabalhar com um cluster ETDC -> https://coreos.com/etcd/docs/latest/demo.html
+  - Demo com uma série de exemplos, mostra os procedimentos básicos para trabalhar com um cluster ETDC -> https://coreos.com/etcd/docs/latest/demo.html
   - Guia de Clusterização ETCD -> https://coreos.com/etcd/docs/latest/op-guide/clustering.html
 
 ## Ambiente Proposto:
@@ -99,19 +107,19 @@ O provisionamento de cada **host** será através dos arquivos de **Shell Script
     ./provision/shell-script/config-security.sh
 
 > **Nota:**
-> *Para cada cluster criado pelo Vagrant, será gerado automaticamente um **[token de descoberta para Etcd](https://coreos.com/os/docs/latest/cluster-discovery.html)** pelo Vagrantfile.*
+>
+> *Para cada cluster criado pelo Vagrant, será gerado automaticamente um **token de descoberta para Etcd** pelo **Vagrantfile** na **linha 15**.*
+>
+> *Para mais detalhes sobre **token de descoberta para Etcd** nos links abaixo:*
+> - *[Descoberta para cluster CoreOS](https://coreos.com/os/docs/latest/cluster-discovery.html)*
+> - *[Guia de clusterização ETCD, Token de Descoberta](https://coreos.com/etcd/docs/latest/op-guide/clustering.html#discovery)*
+
 
 ### Diagrama do Ambiente:
 
 <h1 align="center">
     <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/diagram-environment.png" alt="diagrama"/>
 </h1>
-
-## Documentação de apoio:
-
-* **[Documentação oficial do CoreOS](https://coreos.com/os/docs/latest/cluster-architectures.html)**.
-* **[Documentação oficial do Packer](https://www.packer.io/docs/index.html)**.
-* **[Documentação oficial do Vagrant](https://www.vagrantup.com/docs/index.html)**.
 
 ## Estrutura do Projeto:
 
