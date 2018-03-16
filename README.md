@@ -1,10 +1,9 @@
 
-#### Translation for: **[English](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**. 
-
-## Status do Projeto: "Em desenvolvimento".
+### Translation for: **[English](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**. 
+### Status do Projeto: **Em desenvolvimento**.
 
 <h1 align="center">
-    Subir um cluster CoreOS de 3 instâncias <br/>usando <br/ >"Packer e Vagrant"
+    Subir um cluster CoreOS de 3 hosts usando <br/ >"Packer e Vagrant"
 </h1>
 
 <h1 align="center">
