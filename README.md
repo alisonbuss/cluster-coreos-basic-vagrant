@@ -1,7 +1,7 @@
 
-#### Translation for: **[English](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**.
+#### Translation for: **:us: [English](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**.
 
-#### Status do Projeto: **Em desenvolvimento**.
+#### :construction: Status do Projeto: **Em desenvolvimento**.
 
 <h1 align="center">
     Subir um cluster CoreOS de 3 hosts usando <br/ >"Packer e Vagrant"
@@ -25,7 +25,7 @@
 * **[[Container Linux Config Transpiler](https://github.com/coreos/container-linux-config-transpiler)]** 0.5.0 ou superior...
 * **[[GNU Make](https://www.gnu.org/software/make/)]** 4.1 ou superior...
 
-> **Nota:**
+> **:warning: Nota:**
 > - *É necessário ter instalado as dependências citadas acima, para que o projeto funcione.*
 > - *A execução desse projeto foi feita através de um **Desktop Ubuntu 17.10 (Artful Aardvark)**.*
 
@@ -33,7 +33,7 @@
 
 * **[[coreos-packer](https://github.com/alisonbuss/coreos-packer/)]** Esse projeto é responsável por criar imagens para múltiplas plataformas e na subsequencia gera um "**[Vagrant Box](https://www.vagrantup.com/docs/boxes/base.html)**".
 
-> **Nota:**
+> **:warning: Nota:**
 > *Para subir um cluster pelo Vagrant, vai ser utilizado um "**[Vagrant Box](https://www.vagrantup.com/docs/boxes/base.html)**" gerado pelo projeto citado acima "**[coreos-packer](https://github.com/alisonbuss/coreos-packer/)**".*
 
 ### Documentação de apoio:
@@ -53,8 +53,8 @@ Com um ambiente de **3 hosts virtuais**, em cada host provisionado, será execut
 O ambiente será semelhante a proposta da documentação oficial do CoreOS citada abaixo:
 
   - Executando CoreOS Container Linux em Vagrant :point_right: https://coreos.com/os/docs/latest/booting-on-vagrant.html
-  - Demo com uma série de exemplos, mostra os procedimentos básicos para trabalhar com um cluster ETDC :point_right: https://coreos.com/etcd/docs/latest/demo.html
-  - Guia de Clusterização ETCD :point_right: https://coreos.com/etcd/docs/latest/op-guide/clustering.html
+  - Uma série de exemplos, mostra os procedimentos básicos para trabalhar com um cluster Etcd :point_right: https://coreos.com/etcd/docs/latest/demo.html
+  - Guia de Clusterização Etcd :point_right: https://coreos.com/etcd/docs/latest/op-guide/clustering.html
 
 ### Ambiente Proposto:
 
@@ -106,7 +106,7 @@ O provisionamento de cada **host** será através dos arquivos de **Shell Script
     ./provision/shell-script/config-flannel.sh
     ./provision/shell-script/config-security.sh
 
-> **Nota:**
+> **:warning: Nota:**
 >
 > *Para cada cluster criado pelo Vagrant, será gerado automaticamente um **token de descoberta para Etcd** pelo **Vagrantfile** na **linha 15**.*
 >
@@ -232,7 +232,7 @@ end
 
 ### Executando o projeto.
 
-> **Nota:**
+> **:warning: Nota:**
 > - *A execução desse projeto foi feita através de um **Desktop Ubuntu 17.10 (Artful Aardvark)**.*
 > - *Suponho que você já tenha instalados as [dependências do projeto](https://github.com/alisonbuss/cluster-coreos-basic-vagrant#depend%C3%AAncia-de-ferramentas) citada acima.*
 
@@ -291,7 +291,7 @@ Antes de sair executado o projeto pelo terminal, precisamos validar algumas depe
 
 PRONTO!!! se tudo funcionou como o esperado agora podemos executar o projeto [coreos-packer](https://github.com/alisonbuss/coreos-packer/) e o [cluster-coreos-basic-vagrant](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/).
 
-> **Nota:**
+> **:warning: Nota:**
 > - *Caso ocorra **ERROS** nas validações acima, **Boa Sorte!!!  "O Google é o seu pastor e nada te faltará..."***
 
 
@@ -370,7 +370,7 @@ $ ls
 coreos-packer-master  coreos-packer.zip
 ```
 
-> **Nota:**
+> **:warning: Nota:**
 > - *Caso ocorra **ERROS** ao criar a imagem, **Boa Sorte!!!  "O Google é o seu pastor e nada te faltará..."***
 
 ### Executando o projeto "[cluster-coreos-basic-vagrant](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/)" usando a ferramenta Vagrant.
