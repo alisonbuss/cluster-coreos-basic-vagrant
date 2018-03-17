@@ -370,9 +370,6 @@ $ ls
 coreos-packer-master  coreos-packer.zip
 ```
 
-> **:warning: Nota:**
-> - *Caso ocorra **ERROS** ao criar a imagem, **Boa Sorte!!!  "O Google é o seu pastor e nada te faltará..."***
-
 ### Executando o projeto "[cluster-coreos-basic-vagrant](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/)" usando a ferramenta Vagrant.
 
 **Pronto!!!** agora é a parte onde executamos e subimos o cluster de 3 hosts:
@@ -502,6 +499,18 @@ $ ETCDCTL_API=3 etcdctl --endpoints=http://192.168.33.101:2379,http://192.168.33
 
 ### Sucesso!!! \O/
 
+<h2 align="center">
+    <i>
+        Pronto!!! <br/>
+        Agora você tem um ambiente virtual em cluster CoreOS<br/>
+        Provisionado pelas ferramentas Packer, Vagrant e Shell Script.
+    </i>
+</h2>
+
+O Resultado final semelhante a imagem abaixo:
+<p align="center">
+    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant.png" alt="print-vagrant"/>
+</p>
 
 ### Referências:
 
