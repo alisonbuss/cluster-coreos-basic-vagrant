@@ -129,10 +129,12 @@ Descrição dos arquivos e diretorios do projeto:
 
 ```text
 cluster-coreos-basic-vagrant.........Pasta do projeto.
-├── files............................Arquivos qualquer.
+├── files............................Arquivos de apoio a documentação.
 │   ├── diagram-environment.png
-│   ├── print-packer.png
-│   └── print-vagrant.png
+│   ├── print-coreos-packer.png
+│   ├── print-vagrant-cluster.png
+│   ├── print-vagrant-up-end.png
+│   └── print-vagrant-up.png
 ├── LICENSE..........................Licença (MIT).
 ├── provision........................Pasta onde-se encontra os arquivos de provisionamento.
 │   └── shell-script.................Pasta de provisionamento em shell script.
