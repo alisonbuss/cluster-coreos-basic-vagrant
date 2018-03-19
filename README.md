@@ -110,7 +110,7 @@ O provisionamento de cada **host** será através dos arquivos de **Shell Script
 
 > **:warning: Nota:**
 >
-> *Para cada cluster criado pelo Vagrant, será gerado automaticamente um **token de descoberta para Etcd** pelo **Vagrantfile** na **linha 15**.*
+> *Para cada cluster criado pelo Vagrant, será gerado automaticamente um **token de descoberta para Etcd** pelo **[Vagrantfile](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/Vagrantfile)** na **[linha 15](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/Vagrantfile#L15)**.*
 >
 > *Para mais detalhes sobre **token de descoberta para Etcd** nos links abaixo:*
 > - *[Descoberta para cluster CoreOS](https://coreos.com/os/docs/latest/cluster-discovery.html)*
