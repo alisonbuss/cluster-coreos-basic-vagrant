@@ -8,7 +8,7 @@
 </h1>
 
 ### Inspirado nos projetos:
-
+ 
 * **[[coreos-vagrant](https://github.com/coreos/coreos-vagrant/)]** - Do repositório oficial do CoreOS.
 * **[[coreos-kids-vagrant](https://github.com/alisonbuss/coreos-kids-vagrant/)]** - Exemplo de um Vagrantfile subindo varias VM CoreOS sobre uma configuração simples
 * **[[coreos-packer](https://github.com/alisonbuss/coreos-packer/)]** - Projeto de criação de imagens CoreOS para múltiplas plataformas (Amazon EC2, Google GCE, DigitalOcean, VirtualBox).
