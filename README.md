@@ -8,7 +8,7 @@
 </h1>
 
 <h2 align="center">
-    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant.png" alt="print-vagrant"/>
+    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant-cluster.png" alt="print-vagrant"/>
 </h2>
 
 ### Inspirado nos projetos:
@@ -361,7 +361,7 @@ $ make plan compile validate build install-box
 PRONTO!!! só isso para gerar uma imagem personalizado do CoreOS para um **"Vagrant Box"**
 
 Resultado semelhante abaixo:
-<img alt="print-packer" src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-packer.png"/>
+<img alt="print-packer" src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-coreos-packer.png"/>
 
 
 4ª) Pronto agora vamos voltar para o raiz do ambiente: **"my-project-IaC"** e executar a próxima etapa do projeto **[cluster-coreos-basic-vagrant](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/)**:
@@ -516,7 +516,7 @@ $ ETCDCTL_API=3 etcdctl --endpoints=http://192.168.33.101:2379,http://192.168.33
 
 Resultado final semelhante a imagem abaixo:
 <p align="center">
-    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant.png" alt="print-vagrant"/>
+    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant-cluster.png" alt="print-vagrant"/>
 </p>
 
 ### Referências:
