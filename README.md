@@ -1,15 +1,11 @@
 
 #### Translation for: **[English](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**.
 
-#### Status do Projeto: **Em desenvolvimento**.
+#### Status do Projeto: *(Em desenvolvimento)*.
 
 <h1 align="center">
-    Subir um cluster CoreOS de 3 hosts usando <br/ >"Packer e Vagrant"
+    Subir um cluster CoreOS de 3 hosts, usando <br/ >"Packer e Vagrant"
 </h1>
-
-<h2 align="center">
-    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant.png" alt="print-vagrant"/>
-</h2>
 
 ### Inspirado nos projetos:
 
@@ -28,6 +24,7 @@
 > **:warning: Nota:**
 > - *É necessário ter instalado as dependências citadas acima, para que o projeto funcione.*
 > - *A execução desse projeto foi feita através de um **Desktop Ubuntu 17.10 (Artful Aardvark)**.*
+>
 
 ### Dependência de projetos:
 
@@ -38,6 +35,7 @@
 
 ### Documentação de apoio:
 
+* **[Post: Yet Emerging Technologies - Blog, by Sébastien Braun "CoreOS Container Linux"](http://www.yet.org/2017/03/01-container-linux/)**.
 * **[Documentação oficial do CoreOS](https://coreos.com/os/docs/latest/cluster-architectures.html)**.
 * **[Documentação oficial do Etcd](https://coreos.com/etcd/docs/latest/op-guide/clustering.html)**
 * **[Documentação oficial do Packer](https://www.packer.io/docs/index.html)**.
@@ -48,7 +46,7 @@
 
 Fornecer um projeto de "Infrastructure as Code (IaC)" usando **Vagrantfile** e **shell scripts** para provisionar um **cluster CoreOS** básico, baseado em uma imagem "**[coreos-packer](https://github.com/alisonbuss/coreos-packer/)**".
 
-Com um ambiente de **3 hosts virtuais**, em cada host provisionado, será executado os serviços: **(Docker, Rkt, Etcd-2, Etcd-3, Flannel)** e garantir que o **(Etcd-Server)** de cada host se comuniquem entre si, formando assim um cluster funcional e simples.
+Com um ambiente de **3 hosts virtuais**, em cada host provisionado, será executado os serviços: **(Docker, Rkt, Etcd-2, Etcd-3, Flannel)** e garantir que o **(Etcd-Server)** de cada host se comuniquem entre si, formando assim um cluster simples e funcional.
 
 O ambiente será semelhante a proposta da documentação oficial do CoreOS citada abaixo:
 
@@ -514,16 +512,109 @@ O Resultado final semelhante a imagem abaixo:
 
 ### Referências:
 
-* Canal YouTube Bóson Treinamentos, Fábio dos Reis. ***Programação no Linux*** 
-  Acessado: *29 de Julho de 2017.*
-  Disponível: *[https://www.youtube.com/playlist?list=PLucm8g_ezqNrYgjXC8_CgbvHbvI7dDfhs](https://www.youtube.com/playlist?list=PLucm8g_ezqNrYgjXC8_CgbvHbvI7dDfhs)*.
-* Shell Scriptx Blog, Shamam. ***Trabalhando com funções Shell*** 
-  Acessado: *19 de Setembro de 2017.*
-  Disponível: *[http://shellscriptx.blogspot.com.br/2016/12/trabalhando-com-funcoes.html](http://shellscriptx.blogspot.com.br/2016/12/trabalhando-com-funcoes.html)*.
-* mhavila, Márcio d'Ávila. ***Scripts Shell sob Controle*** 
-  Acessado: *19 de Setembro de 2017.*
-  Disponível: *[http://www.mhavila.com.br/topicos/unix/shscript.html](http://www.mhavila.com.br/topicos/unix/shscript.html)*.
+* Professor José de Assis - YouTube, Playlist ***Curso - Primeiros passos com Servidor Linux*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://www.youtube.com/playlist?list=PLbEOwbQR9lqy926a_ArLcUL2gHJYuu8XK](https://www.youtube.com/playlist?list=PLbEOwbQR9lqy926a_ArLcUL2gHJYuu8XK)*
 
+* Aula EAD Blog, Curso com José de Assis, ***Primeiros passos com Servidor Linux*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[http://www.aulaead.com/courses/curso-gratis-servidor-linux](http://www.aulaead.com/courses/curso-gratis-servidor-linux)*
+
+* Vagrant - Official Site, Vagrant Documentation. ***Command-Line Interface*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://www.vagrantup.com/docs/cli/](https://www.vagrantup.com/docs/cli/)*
+
+* Vagrant - Official Site, Vagrant Documentation. ***Vagrantfile*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://www.vagrantup.com/docs/vagrantfile/](https://www.vagrantup.com/docs/vagrantfile/)*
+
+* Yet Emerging Technologies - Blog, by Sébastien Braun. ***CoreOS Container Linux*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2018 por ai...* <br/>
+  Disponível: *[http://www.yet.org/2017/03/01-container-linux/](http://www.yet.org/2017/03/01-container-linux/)*
+
+* CoreOS - GitHub, Rep: coreos-vagrant. ***Minimal Vagrantfile for Container Linux*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://github.com/coreos/coreos-vagrant/](https://github.com/coreos/coreos-vagrant/)*
+
+* Alison Buss - GitHub, Rep: coreos-kids-vagrant. ***Exemplo de um Vagrantfile subindo varias VM CoreOS sobre uma configuração simples*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://github.com/alisonbuss/coreos-kids-vagrant/](https://github.com/alisonbuss/coreos-kids-vagrant/)*
+
+* Alison Buss - GitHub, Rep: coreos-packer. ***CoreOS image creation project for multiple platforms (Amazon EC2, Google GCE, DigitalOcean, VirtualBox)*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://github.com/alisonbuss/coreos-packer/](https://github.com/alisonbuss/coreos-packer/)*
+
+* CoreOS - Official Site, CoreOS Documentation. ***Running CoreOS Container Linux on Vagrant*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/os/docs/latest/booting-on-vagrant.html](https://coreos.com/os/docs/latest/booting-on-vagrant.html)*
+
+* CoreOS - Official Site, CoreOS Documentation. ***Container Linux automates machine provisioning with a specialized system for applying initial configuration*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/os/docs/latest/provisioning.html](https://coreos.com/os/docs/latest/provisioning.html)*
+
+* LinuxConfig - Blog, Official Blog. ***How to set/change a hostname on CoreOS Linux*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://linuxconfig.org/how-to-set-change-a-hostname-on-coreos-linux](https://linuxconfig.org/how-to-set-change-a-hostname-on-coreos-linux)*
+
+* CoreOS - Official Site, CoreOS Documentation. ***CoreOS Container Linux cluster discovery*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/os/docs/latest/cluster-discovery.html](https://coreos.com/os/docs/latest/cluster-discovery.html)*
+
+* Etcd - Official Site, Etcd Documentation. ***Clustering Guide - Discovery*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/etcd/docs/latest/op-guide/clustering.html#discovery](https://coreos.com/etcd/docs/latest/op-guide/clustering.html#discovery)*
+
+* CoreOS - Official Site, CoreOS Documentation. ***Customizing docker*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/os/docs/latest/customizing-docker.html](https://coreos.com/os/docs/latest/customizing-docker.html)*
+
+* @mohitarora - Medium Blog, by Mohit Arora. ***Manage Docker Containers using CoreOS — Part 1*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://medium.com/@mohitarora/manage-docker-containers-using-coreos-part-1-c1b401bc0aab](https://medium.com/@mohitarora/manage-docker-containers-using-coreos-part-1-c1b401bc0aab)*
+
+* Yet Emerging Technologies - Blog, by Sébastien Braun. ***rkt - yet emerging container runtime*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[http://www.yet.org/2017/03/rkt/](http://www.yet.org/2017/03/rkt/)*
+
+* Etcd - Official Site, Etcd Documentation. ***Demo, series of examples shows the basic procedures for working with an etcd cluster*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/etcd/docs/latest/demo.html](https://coreos.com/etcd/docs/latest/demo.html)*
+
+* Etcd - Official Site, Etcd Documentation. ***Clustering Guide*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/etcd/docs/latest/op-guide/clustering.html](https://coreos.com/etcd/docs/latest/op-guide/clustering.html)*
+
+* Etcd2 - Official Site, Etcd2 Documentation. ***Clustering Guide for Etcd2*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/etcd/docs/latest/v2/clustering.html](https://coreos.com/etcd/docs/latest/v2/clustering.html)*
+
+* Etcd - Official Site, Etcd Documentation. ***Etcd cluster runtime reconfiguration on CoreOS Container Linux*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/etcd/docs/latest/etcd-live-cluster-reconfiguration.html](https://coreos.com/etcd/docs/latest/etcd-live-cluster-reconfiguration.html)*
+
+* Flannel - Official Site, Flannel Documentation. ***Running flannel*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/flannel/docs/latest/running.html](https://coreos.com/flannel/docs/latest/running.html)*
+
+* Flannel - Official Site, Flannel Documentation. ***Configuring flannel for container networking*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/flannel/docs/latest/flannel-config.html](https://coreos.com/flannel/docs/latest/flannel-config.html)*
+
+* Flannel - Official Site, Flannel Documentation. ***Configuration - flannel reads its configuration from etcd*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/flannel/docs/latest/configuration.html](https://coreos.com/flannel/docs/latest/configuration.html)*
+
+* CoreOS - GitHub, Rep: flannel, Issue: #554. ***Flannel + etcdv3? #554*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2018 por ai...* <br/>
+  Disponível: *[https://github.com/coreos/flannel/issues/554](https://github.com/coreos/flannel/issues/554)*
+
+* CoreOS - Official Site, CoreOS Documentation. ***Network configuration with networkd*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://coreos.com/os/docs/latest/network-config-with-networkd.html](https://coreos.com/os/docs/latest/network-config-with-networkd.html)*
+
+* UpCloud - Official Site, Tutorials. ***How to Configure Floating IP on CoreOS*** <br/>
+  Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
+  Disponível: *[https://www.upcloud.com/support/configure-floating-ip-coreos/](https://www.upcloud.com/support/configure-floating-ip-coreos/)*
 
 ### Licença
 
