@@ -579,7 +579,7 @@ Resultado final semelhante a imagem abaixo:
   Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
   Disponível: *[https://coreos.com/os/docs/latest/customizing-docker.html](https://coreos.com/os/docs/latest/customizing-docker.html)*
 
-* @mohitarora - Medium Blog, by Mohit Arora. ***Manage Docker Containers using CoreOS — Part 1*** <br/>
+* @mohitarora - Medium Blog, by Mohit Arora. ***Manage Docker Containers using CoreOS - Part 1*** <br/>
   Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
   Disponível: *[https://medium.com/@mohitarora/manage-docker-containers-using-coreos-part-1-c1b401bc0aab](https://medium.com/@mohitarora/manage-docker-containers-using-coreos-part-1-c1b401bc0aab)*
 
