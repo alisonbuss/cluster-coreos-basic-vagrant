@@ -1,7 +1,7 @@
 
 #### Translation for: **[English](https://github.com/alisonbuss/cluster-coreos-basic-vagrant/blob/master/README_LANG_EN.md)**.
 
-#### Status do Projeto: *(Em desenvolvimento)*.
+#### Status do Projeto: *(Finalizado)*.
 
 <h1 align="center">
     Subir um cluster CoreOS de 3 hosts, usando <br/ >"Packer e Vagrant"
@@ -551,7 +551,7 @@ Resultado final semelhante a imagem abaixo:
   Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
   Disponível: *[https://github.com/alisonbuss/coreos-kids-vagrant/](https://github.com/alisonbuss/coreos-kids-vagrant/)*
 
-* Alison Buss - GitHub, Rep: coreos-packer. ***CoreOS image creation project for multiple platforms (Amazon EC2, Google GCE, DigitalOcean, VirtualBox)*** <br/>
+* Alison Buss - GitHub, Rep: coreos-packer. ***Projeto de criação de imagens CoreOS para múltiplas plataformas (Amazon EC2, Google GCE, DigitalOcean, VirtualBox)*** <br/>
   Acessado: *Sei lá da pesti, foi em 2017 por ai...* <br/>
   Disponível: *[https://github.com/alisonbuss/coreos-packer/](https://github.com/alisonbuss/coreos-packer/)*
 
