@@ -7,6 +7,10 @@
     Subir um cluster CoreOS de 3 hosts, usando <br/ >"Packer e Vagrant"
 </h1>
 
+<h2 align="center">
+    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant.png" alt="print-vagrant"/>
+</h2>
+
 ### Inspirado nos projetos:
  
 * **[[coreos-vagrant](https://github.com/coreos/coreos-vagrant/)]** - Do repositório oficial do CoreOS.
@@ -67,7 +71,7 @@ O ambiente será semelhante a proposta da documentação oficial do CoreOS citad
     - docker-compose: v1.19.0
     - etcd v2.3.8
     - etcd v3.2.11
-    - flannel v0.7.0
+    - flannel v0.9.1
     - active-python: v2.7.13
 
 ### Host: 
@@ -433,6 +437,11 @@ Bringing machine 'coreos-3.dev.com' up with 'virtualbox' provider...
 ...
 ```
 
+Resultado semelhante a imagem abaixo:
+<p align="center">
+    <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant-up.png" alt="print-vagrant"/>
+</p>
+
 5ª) Vamos acessar o host 1 e validar se cada host está se comuniquem entre si, formando assim um cluster funcional:
 
 ```bash
@@ -505,7 +514,7 @@ $ ETCDCTL_API=3 etcdctl --endpoints=http://192.168.33.101:2379,http://192.168.33
     </i>
 </h2>
 
-O Resultado final semelhante a imagem abaixo:
+Resultado final semelhante a imagem abaixo:
 <p align="center">
     <img src="https://github.com/alisonbuss/cluster-coreos-basic-vagrant/raw/master/files/print-vagrant.png" alt="print-vagrant"/>
 </p>
